@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: Example
-  description: Here you can give a nice verbose description of what your component is responsible for
+  description: ESTEBAN WAS HERE Here you can give a nice verbose description of what your component is responsible for
 spec:
   type: service
   endpoint: http://www.trivago.com
