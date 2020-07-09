@@ -10,4 +10,4 @@ spec:
   lifecycle: stable
   owner: perry.manuk@trivago.com
   lighthouse: www.trivago.com
-  githubLink: https://api.github.com/repos/perrymanuk/scripts/actions/workflows
+  githubLink: https://api.github.com/repos/perrymanuk/scripts/actions/runs
