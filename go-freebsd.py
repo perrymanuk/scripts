@@ -11,9 +11,9 @@ import errno
 
 # Enviromental Settings
 print "Setting up Enviroment"
-version = "go1.5.2.freebsd-amd64.tar.gz"
+version = "go1.8.freebsd-amd64.tar.gz"
 url = "https://storage.googleapis.com/golang/" + version
-devel_dir = "/usr/home/lsadmin"
+devel_dir = "/usr/home/go"
 goPath = devel_dir + '/go_devel'
 
 print 'Downloading: {0}'.format(version)
