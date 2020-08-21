@@ -1,0 +1,13 @@
+function note {
+  local project="${1:-""}"
+  local tmpfile="$(mktemp)"
+
+  if [[ -z "${project}" ]]; then
+    echo "project can not be empty" >&2
+    rm "${tmpfile}"
+    return 1
+  fi
+
+  vim -c "set filetype=asciidoc" "${tmpfile}"
+  lablog add note "${project}" "$(cat "${tmpfile}")"
+}
