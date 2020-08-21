@@ -2,17 +2,17 @@ apiVersion: backstage.io/v1alpha1
 kind: Template
 metadata:
   name: create-react-app-template
-  title: Create React App Template
+  title: React Test
   description: Create a new CRA website project
   tags:
     - Experimental
     - React
     - CRA
 spec:
-  owner: web@example.com
+  owner: perry.manuk@trivago.com
   templater: cra
   type: website
-  path: '.'
+  path: 'frontdesk-development/react-test'
   
   schema:
     required: 
