@@ -5,7 +5,6 @@ metadata:
   title: Documentation Template
   description: Create a new standalone documentation project
   tags:
-    - TechDocs
     - MkDocs
 spec:
   owner: spotify/techdocs-core
