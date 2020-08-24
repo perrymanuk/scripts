@@ -12,7 +12,7 @@ spec:
   owner: perry.manuk@trivago.com
   templater: cookiecutter
   type: kubernetes deployment
-  path: './example'
+  path: '.'
   schema:
     required:
       - component_id
