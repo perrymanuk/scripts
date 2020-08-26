@@ -4,7 +4,7 @@ metadata:
   name: Example
   description: Here you can give a nice verbose description of what your component is responsible for
   annotations:
-    backstage.io/github-actions-id: spotify/backstage
+    backstage.io/github-actions-id: frontdesk-development/pepe-final1
 spec:
   type: service
   endpoint: http://www.trivago.com
