@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: Example
   description: Here you can give a nice verbose description of what your component is responsible for
+annotations:
+  backstage.io/github-actions-id: spotify/backstage
 spec:
   type: service
   endpoint: http://www.trivago.com
